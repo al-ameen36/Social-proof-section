@@ -17,8 +17,12 @@ h1 {
 }
 
 .intro_section {
+  font-size: 17px;
   margin-top: 80px;
   line-height: 1.4;
+}
+.intro_section h1 {
+  font-size: 3em;
 }
 .intro_section .card {
   background-color: hsl(300deg, 24%, 96%);
@@ -42,8 +46,10 @@ h1 {
 .testimonials > .row .card {
   background-color: hsl(300deg, 43%, 22%);
   color: white;
-  padding: 1.92em;
+  font-weight: 500;
+  line-height: 1.4;
   margin-top: calc(var(--mt) * 25px);
+  padding: 1.92em;
 }
 .testimonials > .row .card img {
   width: 50px;
