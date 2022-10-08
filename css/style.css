@@ -1,0 +1,84 @@
+body {
+  color: hsl(303deg, 10%, 53%);
+  font: 15px "League Spartan";
+}
+
+h1 {
+  line-height: 1;
+}
+
+.primary-text {
+  color: hsl(300deg, 43%, 22%);
+  font-weight: 700;
+}
+
+.intro_section {
+  margin-top: 80px;
+  line-height: 1.4;
+}
+.intro_section .card {
+  background-color: hsl(300deg, 24%, 96%);
+  margin-bottom: 13px;
+  margin-right: calc(var(--mr) * 25px);
+  width: 427px;
+}
+.intro_section .card .rating {
+  margin-top: -6px;
+}
+.intro_section .card .rating img {
+  margin-right: 5px;
+}
+
+.testimonials > .row {
+  margin-top: 45px;
+}
+.testimonials > .row .primary-text {
+  color: white;
+}
+.testimonials > .row .card {
+  background-color: hsl(300deg, 43%, 22%);
+  color: white;
+  padding: 1.92em;
+  margin-top: calc(var(--mt) * 25px);
+}
+.testimonials > .row .card img {
+  width: 50px;
+}
+.testimonials > .row .verified {
+  color: hsl(333deg, 80%, 67%);
+}
+.testimonials > .row .testimony {
+  color: hsl(300deg, 24%, 96%);
+}
+
+@media screen and (max-width: 992px) {
+  .container {
+    max-width: 830px;
+  }
+  .testimonials .card {
+    padding: 1em !important;
+  }
+}
+@media screen and (max-width: 860px) {
+  .intro_section > .row {
+    flex-direction: column;
+    text-align: center;
+  }
+  .intro_section .card {
+    margin-right: 0;
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 770px) {
+  .intro_section .card {
+    width: auto;
+  }
+  .testimonials > .row {
+    flex-direction: column;
+  }
+  .testimonials > .row .card {
+    margin-top: 15px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
