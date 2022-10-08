@@ -1,6 +1,10 @@
 body {
   color: hsl(303deg, 10%, 53%);
   font: 15px "League Spartan";
+  background-image: url("../images/bg-pattern-top-desktop.svg"), url("../images/bg-pattern-bottom-desktop.svg");
+  background-position: top left, bottom right;
+  background-repeat: no-repeat;
+  min-height: 100vh;
 }
 
 h1 {
@@ -70,6 +74,9 @@ h1 {
   }
 }
 @media screen and (max-width: 770px) {
+  body {
+    background-image: url("../images/bg-pattern-top-mobile.svg"), url("../images/bg-pattern-bottom-mobile.svg");
+  }
   .intro_section .card {
     width: auto;
   }
@@ -80,5 +87,3 @@ h1 {
     margin-top: 15px;
   }
 }
-
-/*# sourceMappingURL=style.css.map */
